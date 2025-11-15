@@ -1,3 +1,5 @@
+SQL EDA PROJECT 
+
 Hi, its sam here 
 
 in this SQL project i analysed the following for a retail store manager using SQL[giving some specifics to work on below]
