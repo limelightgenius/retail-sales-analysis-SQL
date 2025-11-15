@@ -1,7 +1,7 @@
-👋 Hi, I'm Ifeoluwa Samuel Sunday  
+Hi, I'm Ifeoluwa Samuel Sunday  
 
-💡 Aspiring Data Analyst | SQL • Excel • Power BI • Python  
-📊 Passionate about turning raw data into insights and business decisions  
+Aspiring Data Analyst | SQL • Excel • Power BI • Python  
+Passionate about turning raw data into insights and business decisions  
 
 ## 🔹 Featured Projects
 - [SQL Mini Report – Retail Sales Analysis](link_to_repo)
