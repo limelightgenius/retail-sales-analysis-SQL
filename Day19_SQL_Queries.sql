@@ -1,3 +1,22 @@
+CREATE TABLE orders (
+    orderid INTEGER PRIMARY KEY,
+    customername TEXT NOT NULL,
+    city TEXT NOT NULL,
+    productcategory TEXT NOT NULL,
+    price DECIMAL(10,2) NOT NULL,
+    quantity INTEGER NOT NULL
+);
+
+INSERT INTO orders (orderid, customername, city, productcategory, price, quantity) VALUES
+(1, 'Ella', 'London', 'Electronics', 200, 8),
+(2, 'Clara', 'London', 'Furniture', 300, 5),
+(3, 'Frank', 'Leeds', 'Electronics', 100, 8),
+(4, 'David', 'Leeds', 'Furniture', 200, 1),
+(5, 'Bob', 'Leeds', 'Electronics', 100, 8),
+(6, 'Alice', 'Bristol', 'Clothing', 50, 10),
+(7, 'Grace', 'Bristol', 'Furniture', 300, 1);
+
+
 -- 1️⃣ Total Revenue by Product Category
 SELECT productcategory, SUM(price*quantity) AS total_revenue
 FROM orders
